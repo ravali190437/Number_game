@@ -1,0 +1,101 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black;
+}
+
+#first{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    background-color: aqua;
+}
+
+#sub-first{
+    width: 40%;
+    height: 40%;
+    border-color: black ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#second{
+    width: 100vw;
+    height: 90vh;
+    border: solid;
+    background-color:khaki;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+#second-sub{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#store{
+    width: 60%;
+    height: 50%;
+    border: solid;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#oper{
+    width: 60%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#second-fir ,#second-sec{
+    width: 40%;
+    height: 50%;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-fir{
+    background-color: green;
+}
+
+#second-sec{
+    background-color: red;
+}
+
+#demo{
+     font-size: 150px;
+}
+
